@@ -6,6 +6,5 @@
     "jsx": "react",
     "noImplicitAny": true,
     "allowSyntheticDefaultImports": true
-  },
-  "include": ["src/components", "custom.d.ts"]
+  }
 }
