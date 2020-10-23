@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-const glass = require('../../images/magnifying-glass.svg') as string;
+import glass from '../../images/magnifying-glass.svg';
 
 export const Container = styled.div`
   max-width: 1536px;

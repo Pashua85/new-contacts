@@ -3,8 +3,6 @@ import pencil from '../../images/pencil.svg';
 import wrong from '../../images/wrong.svg';
 
 export const Item = styled.div`
-  /* border-radius: 5px;
-  border: 1px solid silver; */
   display: flex;
   justify-content: space-between;
   padding: 10px;

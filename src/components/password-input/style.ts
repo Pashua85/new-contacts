@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import eyeIcon from '../../images/eye-icon.svg';
+const eyeIcon = require('../../images/eye-icon.svg') as string;
 import {DEVICE} from '../../variables';
 
 export const Container = styled.div`

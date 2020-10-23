@@ -13,21 +13,20 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
-        use: 'ts-loader',
+        test: /\.(ts|js)x?$/,
+        use: 'babel-loader',
         exclude: '/node_modules/'
       },
       {
-        test: /\.(jpg|png|svg)$/,
-        loader: 'file-loader',
-        options: {
-          name: 'images/[name].[ext]',
-        },
-      },
+        test: /\.svg$/,
+        use: ['@svgr/webpack', 'file-loader'],
+        exclude: '/node_modules/'
+      }
     ],
   },
   output: {
       filename: '[name].js',
+      publicPath: '/',
       path: path.resolve(__dirname, 'dist')
   },
   plugins: [
@@ -35,5 +34,8 @@ module.exports = {
         template: path.join(__dirname, 'src', 'index.html')
     })
   ],
+  devServer: {
+    historyApiFallback: true,
+  },
   devtool: `source-map`
 }
