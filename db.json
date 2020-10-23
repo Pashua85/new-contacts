@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "id": "71c46fb3-2559-44a4-9d0d-e41528f435b7",
+      "email": "test1@test.ru",
+      "password": "password1"
+    },
+    {
+      "id": "4b6cc158-3ab5-43c7-a483-d68b9b9ee166",
+      "email": "test2@test.ru",
+      "password": "password2"
+    },
+    {
+      "id": "f151557b-0977-4086-95de-dfa97b930a3c",
+      "email": "test3@test.ru",
+      "password": "password3"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "fda6ab2a-de69-430e-b84e-e6168da0f717",
+      "name": "Иван Иванов",
+      "phone": "+79047364829",
+      "userId": "71c46fb3-2559-44a4-9d0d-e41528f435b7"
+    },
+    {
+      "id": "b7b43c8b-e610-4d81-b8dc-623fa5f6423b",
+      "name": "Сидор Сидоров",
+      "phone": "89347286471",
+      "userId": "71c46fb3-2559-44a4-9d0d-e41528f435b7"
+    },
+    {
+      "id": "7d9915f7-4091-4b1b-9a6a-91c7aa84f3ac",
+      "name": "Пётр Петров",
+      "phone": "8(343)2983746",
+      "userId": "71c46fb3-2559-44a4-9d0d-e41528f435b7"
+    },
+    {
+      "id": "9839292d-f240-41de-a841-11167014b6e6",
+      "name": "Абрам Абрамов",
+      "phone": "+79263981745",
+      "userId": "71c46fb3-2559-44a4-9d0d-e41528f435b7"
+    },
+    {
+      "id": "14771727-f833-40c4-a67d-76b98b16711e",
+      "name": "Николай Николаев",
+      "phone": "+7(495)29737623",
+      "userId": "71c46fb3-2559-44a4-9d0d-e41528f435b7"
+    },
+    {
+      "id": "b4be9543-c0a1-4b17-b82f-d9c5feb68968",
+      "name": "John Doe",
+      "phone": "23426467456",
+      "userId": "4b6cc158-3ab5-43c7-a483-d68b9b9ee166"
+    },
+    {
+      "id": "d33fad5e-9c1c-4188-acf5-4b8e12cf7c4d",
+      "name": "Sarah Connor",
+      "phone": "302859981723",
+      "userId": "4b6cc158-3ab5-43c7-a483-d68b9b9ee166"
+    }
+  ]
+}
